@@ -1,0 +1,17 @@
+<templateSet group="PHP">
+  <template name="thr" value="throw new $END$" description="throw new " toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="cf" value="__CLASS__.'-&gt;'.__FUNCTION__.'['.__LINE__.']'" description="string for class, function and line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="nyi" value="throw new \Exception(sprintf('Not Yet Implemented: %s-&gt;%s[%s]', __CLASS__, __FUNCTION__, __LINE__));" description="Not Yet Implemented" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>

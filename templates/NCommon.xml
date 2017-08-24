@@ -1,0 +1,11 @@
+<templateSet group="NCommon">
+  <template name="prxp" value="/**&#10; * @param $TYPE$ $$$PROPERTY_NAME$&#10; * @return $$this&#10; */&#10;public function set$ACCESSOR_NAME$($TYPE$ $$$PROPERTY_NAME$)&#10;{&#10;    $this-&gt;$VALUES_OBJECT$-&gt;$PROPERTY_NAME$ = $$$PROPERTY_NAME$;&#10;    return $this;&#10;}&#10;/**&#10; * @return $TYPE$&#10; */&#10;public function get$ACCESSOR_NAME$()&#10;{&#10;    return $$this-&gt;$VALUES_OBJECT$-&gt;$PROPERTY_NAME$;&#10;}&#10;&#10;$END$&#10;" description="Proxy Property" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUES_OBJECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACCESSOR_NAME" expression="capitalize($PROPERTY_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>

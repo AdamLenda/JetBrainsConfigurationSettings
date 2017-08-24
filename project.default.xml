@@ -1,0 +1,77 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Behat">
+        <behat_settings>
+          <BehatSettings />
+        </behat_settings>
+      </component>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <option name="myLocal" value="true" />
+          <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+            <option name="CODING_STANDARD" value="PSR2" />
+            <option name="WARNING_HIGHLIGHT_LEVEL_NAME" value="ERROR" />
+            <option name="SHOW_SNIFF_NAMES" value="true" />
+          </inspection_tool>
+        </profile>
+        <option name="PROJECT_PROFILE" value="Project Default" />
+        <option name="USE_PROJECT_PROFILE" value="true" />
+        <version value="1.0" />
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>Cucumber</id>
+              </State>
+              <State>
+                <id>JSON</id>
+              </State>
+              <State>
+                <id>PHP</id>
+              </State>
+              <State>
+                <id>Probable bugsPHP</id>
+              </State>
+              <State>
+                <id>Type compatibilityPHP</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Blade files</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+        <OptionsSetting value="true" id="Add" />
+        <OptionsSetting value="true" id="Remove" />
+        <OptionsSetting value="true" id="Checkout" />
+        <OptionsSetting value="true" id="Update" />
+        <OptionsSetting value="true" id="Status" />
+        <OptionsSetting value="true" id="Edit" />
+        <ConfirmationsSetting value="0" id="Add" />
+        <ConfirmationsSetting value="0" id="Remove" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="Errors" />
+        <property name="settings.editor.splitter.proportion" value="0.2" />
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
