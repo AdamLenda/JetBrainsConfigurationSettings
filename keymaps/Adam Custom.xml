@@ -1,27 +1,21 @@
 <keymap version="1" name="Adam Custom" parent="Mac OS X 10.5+">
-  <action id="EditorCutLineEnd" />
-  <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl o" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
   </action>
-  <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift meta alt t" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
+  </action>
+  <action id="ShowFilePath" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
   </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl s" />
-  </action>
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-  </action>
-  <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
-  </action>
-  <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
-  <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
-  </action>
-  <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
   </action>
 </keymap>
