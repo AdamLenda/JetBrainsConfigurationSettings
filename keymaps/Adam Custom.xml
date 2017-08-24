@@ -1,4 +1,4 @@
-<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+<keymap version="1" name="Adam Custom" parent="Mac OS X 10.5+">
   <action id="EditorCutLineEnd" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl o" />
