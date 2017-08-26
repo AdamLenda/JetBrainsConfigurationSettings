@@ -19,6 +19,9 @@
       <entry key="DirDiff">
         <PlaceSettings />
       </entry>
+      <entry key="Merge">
+        <PlaceSettings />
+      </entry>
     </option>
   </component>
 </application>
