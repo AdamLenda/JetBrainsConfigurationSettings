@@ -14,6 +14,9 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="o" />
+  </action>
   <action id="ShowFilePath" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
