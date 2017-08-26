@@ -1,4 +1,7 @@
 <keymap version="1" name="Adam Custom" parent="Mac OS X 10.5+">
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
