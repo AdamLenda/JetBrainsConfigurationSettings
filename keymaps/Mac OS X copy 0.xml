@@ -42,6 +42,9 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="o" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
