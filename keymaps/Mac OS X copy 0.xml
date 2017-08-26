@@ -14,6 +14,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="Generate">
@@ -33,6 +36,9 @@
   </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
