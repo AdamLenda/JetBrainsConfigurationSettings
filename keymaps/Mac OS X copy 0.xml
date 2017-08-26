@@ -2,10 +2,20 @@
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl s" />
+  </action>
   <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -21,4 +31,14 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
+  </action>
+  <action id="tasks.close" />
 </keymap>
