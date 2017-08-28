@@ -28,7 +28,6 @@
     <context>
       <option name="HTML" value="true" />
       <option name="XSL_TEXT" value="true" />
-      <option name="XML_TEXT" value="true" />
     </context>
   </template>
 </templateSet>
