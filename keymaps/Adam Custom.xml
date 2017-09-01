@@ -1,27 +1,37 @@
 <keymap version="1" name="Adam Custom" parent="Mac OS X 10.5+">
-  <action id="ChangeSplitOrientation">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
-  </action>
-  <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="down" />
-  </action>
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
-  </action>
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f" />
-  </action>
-  <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
+  <action id="EditorCutLineEnd" />
+  <action id="FileChooser.NewFolder" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="o" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl o" />
   </action>
-  <action id="ShowFilePath" />
-  <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="b" />
   </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl s" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
 </keymap>
