@@ -18,6 +18,9 @@
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="o" />
   </action>
   <action id="ShowFilePath" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="b" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
   </action>
