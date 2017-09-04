@@ -1,3 +1,5 @@
 <templateSet group="Adam-PHP">
-  <template name="pr" value="print_r(sprintf(&quot;%s-&gt;%s[%s]:\n&quot;, __CLASS__, __FUNCTION__, __LINE__));" description="Print Macro" toReformat="false" toShortenFQNames="true" />
+  <template name="pr" value="print_r(sprintf(&quot;%s-&gt;%s[%s]:\n&quot;, __CLASS__, __FUNCTION__, __LINE__));" description="Print Macro" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
