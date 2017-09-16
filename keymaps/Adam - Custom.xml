@@ -8,6 +8,11 @@
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="m" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />

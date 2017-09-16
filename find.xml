@@ -1,9 +1,28 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="Open Files" />
+    <option name="defaultScopeName" value="Open Files" />
+    <option name="SEARCH_SCOPE" value="Open Files" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.t</mask>
+      <mask>*.tw</mask>
+      <mask>*.two</mask>
+      <mask>*.twi</mask>
+      <mask>*.twig</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
+      <mask>*..php</mask>
+      <mask>*.j.php</mask>
+      <mask>*.js.php</mask>
+    </recentFileMasks>
   </component>
 </application>
