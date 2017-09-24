@@ -5,6 +5,10 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="left" />
   </action>
+  <action id="BuildSolutionAction">
+    <keyboard-shortcut first-keystroke="meta f9" />
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="alt button1" />
   </action>
@@ -25,6 +29,10 @@
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta o" />
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
