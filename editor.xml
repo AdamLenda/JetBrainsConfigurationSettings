@@ -2,6 +2,7 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="PHP" value="true" />
         <entry key="Flow JS" value="true" />
       </map>
     </option>
