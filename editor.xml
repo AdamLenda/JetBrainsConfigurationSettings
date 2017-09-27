@@ -3,6 +3,7 @@
     <option name="languageBreadcrumbsMap">
       <map>
         <entry key="PHP" value="true" />
+        <entry key="Flow JS" value="true" />
       </map>
     </option>
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
