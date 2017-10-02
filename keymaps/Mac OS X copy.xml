@@ -1,4 +1,6 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
   </action>
@@ -41,6 +43,12 @@
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="d" />
   </action>
