@@ -13,6 +13,10 @@
   <action id="EditorLookupUp" />
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="m" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
