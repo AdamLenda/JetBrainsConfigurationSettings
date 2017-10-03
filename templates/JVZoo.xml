@@ -1,0 +1,7 @@
+<templateSet group="JVZoo">
+  <template name="prcf" value="pr(__CLASS__.'-&gt;'.__FUNCTION__.'['.__LINE__.']');" description="print class line and function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

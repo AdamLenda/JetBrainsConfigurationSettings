@@ -1,7 +1,8 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
-  <action id="BuildSolutionAction">
-    <keyboard-shortcut first-keystroke="meta f9" />
-    <keyboard-shortcut first-keystroke="meta b" second-keystroke="s" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta f4" />
@@ -17,6 +18,10 @@
   <action id="EditorLookupUp" />
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="m" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
@@ -25,10 +30,6 @@
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
-  </action>
-  <action id="GotoDeclaration">
-    <mouse-shortcut keystroke="meta button1" />
-    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f" />
@@ -42,6 +43,18 @@
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="d" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="r" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -52,5 +65,11 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="ShowContent" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
 </keymap>
