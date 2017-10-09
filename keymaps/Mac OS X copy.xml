@@ -51,6 +51,9 @@
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="o" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
