@@ -4,4 +4,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="prop" value="protected $$$VALUE_NAME$;&#10;&#10;public function get$PROPERTY_NAME$()&#10;{&#10;    return $this-&gt;$VALUE_NAME$;&#10;}&#10;&#10;public function set$PROPERTY_NAME$($$$VALUE_NAME$)&#10;{&#10;    $this-&gt;$VALUE_NAME$ = $$$VALUE_NAME$;&#10;    return $this;&#10;}" description="single value property, for arrays use propa" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_NAME" expression="decapitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
