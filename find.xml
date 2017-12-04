@@ -2,10 +2,32 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="preserveCase" value="true" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="PRESERVE_CASE_REPLACE" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.t</mask>
+      <mask>*.tw</mask>
+      <mask>*.two</mask>
+      <mask>*.twi</mask>
+      <mask>*.twig</mask>
+      <mask>*..php</mask>
+      <mask>*.j.php</mask>
+      <mask>*.js.php</mask>
+      <mask>*.jsphp</mask>
+      <mask>*.jshp</mask>
+      <mask>*.jsp</mask>
+      <mask>*.js</mask>
+      <mask>*.p</mask>
+      <mask>*.ph</mask>
+      <mask>*.php</mask>
+    </recentFileMasks>
   </component>
 </application>
