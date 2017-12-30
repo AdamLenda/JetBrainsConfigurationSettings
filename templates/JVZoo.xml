@@ -1,5 +1,7 @@
 <templateSet group="JVZoo">
-  <template name="prcf" value="pr(__CLASS__.'-&gt;'.__FUNCTION__.'['.__LINE__.']');" description="print class line and function" toReformat="false" toShortenFQNames="true">
+  <template name="prcf" value="pr(__METHOD__.&quot;[&quot;.__LINE__.&quot;] $label$&quot;$value$);" description="print class line and function" toReformat="false" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
