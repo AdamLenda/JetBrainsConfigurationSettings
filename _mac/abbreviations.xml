@@ -1,20 +1,11 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="GotoSuperMethod">
-        <abbreviation name="definition" />
-        <abbreviation name="declaration" />
-        <abbreviation name="to" />
-        <abbreviation name="type" />
-        <abbreviation name="struct" />
-        <abbreviation name="super" />
-        <abbreviation name="class" />
+      <action id="RdExposingApiesNavigationAction">
         <abbreviation name="interface" />
-        <abbreviation name="this" />
-        <abbreviation name="navigate" />
-        <abbreviation name="Base" />
-        <abbreviation name="symbols" />
-        <abbreviation name="method" />
+        <abbreviation name="get" />
+        <abbreviation name="type" />
+        <abbreviation name="obtain" />
       </action>
       <action id="GotoSymbol">
         <abbreviation name="to" />
@@ -80,17 +71,20 @@
         <abbreviation name="navigate" />
         <abbreviation name="this" />
       </action>
-      <action id="EditorCodeBlockStart">
+      <action id="GotoSuperMethod">
+        <abbreviation name="definition" />
+        <abbreviation name="declaration" />
         <abbreviation name="to" />
         <abbreviation name="type" />
         <abbreviation name="struct" />
+        <abbreviation name="super" />
         <abbreviation name="class" />
-        <abbreviation name="method" />
+        <abbreviation name="interface" />
         <abbreviation name="this" />
         <abbreviation name="navigate" />
-        <abbreviation name="Containing" />
-        <abbreviation name="declaration" />
-        <abbreviation name="signature" />
+        <abbreviation name="Base" />
+        <abbreviation name="symbols" />
+        <abbreviation name="method" />
       </action>
       <action id="GotoTypeDeclaration">
         <abbreviation name="definition" />
@@ -117,11 +111,17 @@
         <abbreviation name="field" />
         <abbreviation name="internal" />
       </action>
-      <action id="RdExposingApiesNavigationAction">
-        <abbreviation name="interface" />
-        <abbreviation name="get" />
+      <action id="EditorCodeBlockStart">
+        <abbreviation name="to" />
         <abbreviation name="type" />
-        <abbreviation name="obtain" />
+        <abbreviation name="struct" />
+        <abbreviation name="class" />
+        <abbreviation name="method" />
+        <abbreviation name="this" />
+        <abbreviation name="navigate" />
+        <abbreviation name="Containing" />
+        <abbreviation name="declaration" />
+        <abbreviation name="signature" />
       </action>
       <action id="GotoFile">
         <abbreviation name="to" />

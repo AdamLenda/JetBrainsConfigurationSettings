@@ -83,4 +83,7 @@
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="WelcomeScreen.Plugins">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
 </keymap>
