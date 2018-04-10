@@ -35,4 +35,10 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="reg" value="//region $REGION_NAME$&#10;&#10;&#10;&#10;//endregion $REGION_NAME$" description="region" toReformat="true" toShortenFQNames="true">
+    <variable name="REGION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
