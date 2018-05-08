@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="ContentMenu" type="Flow" />
+      <mapping pattern="DispatchLoggerMiddleware" type="JavaScript" />
     </extensionMap>
   </component>
 </application>
