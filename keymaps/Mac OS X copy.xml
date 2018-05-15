@@ -1,0 +1,17 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="Arrangement.Alias.Rule.Add">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Arrangement.Rule.Add">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="ShowFilePath">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f" />
+  </action>
+</keymap>
