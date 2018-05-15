@@ -2,11 +2,12 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
-        <entry key="PHP" value="true" />
         <entry key="Flow JS" value="true" />
+        <entry key="PHP" value="true" />
       </map>
     </option>
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
   <component name="SqlEditorOptions">
     <option name="concatenateStringsOnEnter" value="true" />
