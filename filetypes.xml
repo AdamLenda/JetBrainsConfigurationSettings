@@ -2,10 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="ContentMenu" type="Flow" />
+      <mapping ext="j2" type="Jinja2" />
       <mapping pattern="*.js.php" type="PHP" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping ext="j2" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
