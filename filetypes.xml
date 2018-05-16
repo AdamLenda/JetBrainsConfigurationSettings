@@ -2,14 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="ContentMenu" type="Flow" />
-      <mapping pattern="NavigatorWithState" type="JavaScript" />
-      <mapping pattern="DispatchLoggerMiddleware" type="JavaScript" />
       <mapping pattern="*.js.php" type="PHP" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern="ApplicationViewStyleSheet" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
-      <mapping pattern="simple-synchronous-action" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
