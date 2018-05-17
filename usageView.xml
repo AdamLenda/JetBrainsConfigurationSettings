@@ -5,4 +5,7 @@
     <option name="GROUP_BY_PACKAGE" value="false" />
     <option name="GROUP_BY_FILE_STRUCTURE" value="false" />
   </component>
+  <component name="UsageViewSettings">
+    <option name="EXPORT_FILE_NAME" value="$USER_HOME$/Desktop/customer_table_references.txt" />
+  </component>
 </application>
