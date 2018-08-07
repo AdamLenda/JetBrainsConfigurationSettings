@@ -1,5 +1,5 @@
 <templateSet group="JVZoo">
-  <template name="prcf" value="pr(__METHOD__.&quot;[&quot;.__LINE__.&quot;] $label$&quot;$value$);" description="print class line and function" toReformat="false" toShortenFQNames="true">
+  <template name="prcf" value="\CCT::pr((__METHOD__.&quot;[&quot;.__LINE__.&quot;] $label$&quot;$value$);" description="print class line and function" toReformat="false" toShortenFQNames="true">
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -49,6 +49,13 @@
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="pr" value="\CCT::pr($VALUE$);" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
 </templateSet>
