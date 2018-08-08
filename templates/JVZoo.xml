@@ -51,7 +51,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="pr" value="\CCT::pr($VALUE$);" toReformat="false" toShortenFQNames="true">
+  <template name="pr" value="\CCT::pr($VALUE$);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Expression" value="true" />
