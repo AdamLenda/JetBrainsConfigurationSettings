@@ -1,5 +1,5 @@
 <templateSet group="NCommonJS">
-  <template name="prop" value="//region $PROPERTY_NAME$&#10;_$PROPERTY_NAME$ = null;&#10;get $PROPERTY_NAME$() {&#10;    return this._$PROPERTY_NAME$;&#10;}&#10;set $PROPERTY_NAME$(value) {&#10;    this._$PROPERTY_NAME$ = value;&#10;    return this;&#10;}&#10;//endregion $PROPERTY_NAME$" description="ES6 Class Property" toReformat="false" toShortenFQNames="true">
+  <template name="prop" value="//region $PROPERTY_NAME$&#10;_$PROPERTY_NAME$ = null;&#10;get $PROPERTY_NAME$() {&#10;  return this._$PROPERTY_NAME$;&#10;}&#10;set $PROPERTY_NAME$(value) {&#10;  this._$PROPERTY_NAME$ = value;&#10;  return this;&#10;}&#10;//endregion $PROPERTY_NAME$" description="ES6 Class Property" toReformat="true" toShortenFQNames="true">
     <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_CLASS" value="true" />
