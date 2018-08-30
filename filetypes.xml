@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="ContentMenu" type="Flow" />
-      <removed_mapping ext="md" type="Markdown" />
-      <mapping ext="md" type="Native" />
       <mapping pattern="*.js.php" type="PHP" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
