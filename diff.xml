@@ -19,11 +19,6 @@
         </PlaceSettings>
       </entry>
       <entry key="Default">
-        <PlaceSettings>
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
-        </PlaceSettings>
-      </entry>
-      <entry key="DirDiff">
         <PlaceSettings />
       </entry>
       <entry key="Merge">
