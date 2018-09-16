@@ -77,6 +77,9 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="ShowContent" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="b" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
   </action>
