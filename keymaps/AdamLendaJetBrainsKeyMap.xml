@@ -9,6 +9,9 @@
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="ContextHelp" />
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
@@ -44,6 +47,7 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
   </action>
+  <action id="IntroduceConstant" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
