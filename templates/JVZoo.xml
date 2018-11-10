@@ -28,17 +28,23 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="prop" value="//region $PROPERTY_NAME$ Property&#10;/**&#10; * @var $TYPE_NAME$&#10; */&#10;private $$$VALUE_NAME$$INITIAL_VALUE$;&#10;&#10;/**&#10; * @return $TYPE_NAME$&#10; */&#10;public function get$PROPERTY_NAME$()&#10;{&#10;    return $this-&gt;$VALUE_NAME$;&#10;}&#10;&#10;/**&#10; * @param $TYPE_NAME$&#10; * @return $this&#10; */&#10;public function set$PROPERTY_NAME$($PARAMETER_TYPE_NAME$ $$$VALUE_NAME$)&#10;{&#10;    $this-&gt;$VALUE_NAME$ = $$$VALUE_NAME$;&#10;    return $this;&#10;}&#10;//endregion $PROPERTY_NAME$ Property" description="readonly property" toReformat="true" toShortenFQNames="true">
+  <template name="prop" value="//region $PROPERTY_NAME$ Property&#10;/**&#10; * $DESCRIPTION_1$&#10; *&#10; * @var $TYPE_NAME$ $FIELD_DESCRIPTION_1$&#10; */&#10;private $$$VALUE_NAME$ = $INITIAL_VALUE$;&#10;&#10;/**&#10; * $DESCRIPTION_2$&#10; *&#10; * @return $TYPE_NAME$ $FIELD_DESCRIPTION_2$&#10; */&#10;public function get$PROPERTY_NAME$()&#10;{&#10;    return $this-&gt;$VALUE_NAME$;&#10;}&#10;&#10;/**&#10; * $DESCRIPTION_3$&#10; *&#10; * @param $TYPE_NAME$ $FIELD_DESCRIPTION_3$&#10; * @return $this&#10; */&#10;public function set$PROPERTY_NAME$($PARAMETER_TYPE_NAME$ $$$VALUE_NAME$)&#10;{&#10;    $this-&gt;$VALUE_NAME$ = $$$VALUE_NAME$;&#10;    return $this;&#10;}&#10;//endregion $PROPERTY_NAME$ Property&#10;&#10;$END$" description="read / write property" toReformat="true" toShortenFQNames="true">
     <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE_NAME" expression="decapitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE_NAME" expression="TYPE_NAME" defaultValue="" alwaysStopAt="true" />
-    <variable name="INITIAL_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_DESCRIPTION_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_DESCRIPTION_2" expression="FIELD_DESCRIPTION_1" defaultValue="" alwaysStopAt="false" />
+    <variable name="FIELD_DESCRIPTION_3" expression="FIELD_DESCRIPTION_2" defaultValue="" alwaysStopAt="false" />
+    <variable name="INITIAL_VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
     <variable name="PARAMETER_TYPE_NAME" expression="TYPE_NAME" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION_2" expression="DESCRIPTION_1" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION_3" expression="DESCRIPTION_2" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="reg" value="//region $REGION_NAME$&#10;&#10;&#10;&#10;//endregion $REGION_NAME$" description="region" toReformat="true" toShortenFQNames="true">
+  <template name="reg" value="//region $REGION_NAME$&#10;&#10;$END$&#10;&#10;//endregion $REGION_NAME$" description="region" toReformat="true" toShortenFQNames="true">
     <variable name="REGION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
