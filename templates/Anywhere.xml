@@ -1,5 +1,17 @@
 <templateSet group="Anywhere">
-  <template name="me" value="$DATE$ Adam Lenda" description="My name and current date" toReformat="false" toShortenFQNames="true">
+  <template name="me" value="$DATE$ Adam Lenda" description="My name and current date" toReformat="true" toShortenFQNames="true">
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="/*me" value="/* $DATE$ Adam Lenda&#10; * $END$&#10; */" description="My name and current date" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="//me" value="// $DATE$ Adam Lenda: $END$" description="My name and current date" toReformat="true" toShortenFQNames="true">
     <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="OTHER" value="true" />
