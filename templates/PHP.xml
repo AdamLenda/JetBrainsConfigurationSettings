@@ -1,0 +1,34 @@
+<templateSet group="PHP">
+  <template name="reqprop" value="//region Requested$FIELD_NAME$ Property&#10;/**&#10; * @var $TYPE_NAME$$DEFAULT_VALUE$ $FIELD_DESCRIPTION$&#10; */&#10;private $$$VALUE_NAME$ = $INITIAL_VALUE$;&#10;&#10;/**&#10; * $SETTER_DESCRIPTION$&#10; *&#10; * $SETTER_RESPONSIBLE_FOR$&#10; *&#10; * $SETTER_CANNOT_PARSE$&#10; *&#10; * $SETTER_DOES_NOT_VALIDATE$&#10; *&#10; * @param mixed $PARAMETER_NAME$ $SETTER_PARAMETER_DESCRIPTION$&#10; * @return $this&#10; */&#10;protected function parse$FIELD_NAME$($PARAMETER_NAME$)&#10;{&#10;    if ($USE_DEFAULT_EXPRESSION$) {&#10;        $this-&gt;$VALUE_NAME$ = $INITIAL_VALUE$;&#10;        return $this;&#10;    }&#10;    &#10;    $ADDITIONAL_PARSING$    &#10;    return $this;&#10;}&#10;&#10;/**&#10; * $GETTER_DESCRIPTION$&#10; * $NOT_BLANK$$NOT_BLANK_PARAMETERS$$NOT_NULL$$NEXT_ASSERT$&#10; *&#10; * @return $TYPE_NAME$$DEFAULT_VALUE$ $GETTER_RETURN_DESCRIPTION$&#10; */&#10;public function requested$FIELD_NAME$()&#10;{&#10;    return $this-&gt;$VALUE_NAME$;&#10;}&#10;//endregion $PROPERTY_NAME$ Property&#10;$END$" description="Controller &quot;Request Property&quot; that allows public get but protected set with a private member variable" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPERTY_NAME" expression="concat(&quot;Requested&quot;,FIELD_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE_NAME" expression="TYPE_NAME" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <variable name="INITIAL_VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_DESCRIPTION" expression="" defaultValue="&quot;Stores the parsed and type converted value from the raw web request&quot;" alwaysStopAt="false" />
+    <variable name="DEFAULT_VALUE" expression="concat(&quot;|&quot;, INITIAL_VALUE)" defaultValue="" alwaysStopAt="false" />
+    <variable name="VALUE_NAME" expression="decapitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="SETTER_DESCRIPTION" expression="concat(&quot;Fluent setter for &quot;, PROPERTY_NAME,&quot;.&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="SETTER_RESPONSIBLE_FOR" expression="concat(&quot;This method is responsible for parsing the raw request value into the correct type.&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="SETTER_CANNOT_PARSE" expression="concat(&quot;If the parameter is not already, or cannot be converted into, a value of type '&quot;, TYPE_NAME, &quot;'\n\t * then $this-&gt;&quot;, VALUE_NAME,&quot; is set to the default value of '&quot;, INITIAL_VALUE,&quot;'.&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="SETTER_DOES_NOT_VALIDATE" expression="" defaultValue="&quot;This method does not attempt to validate the parsed value.&quot;" alwaysStopAt="true" />
+    <variable name="SETTER_PARAMETER_DESCRIPTION" expression="" defaultValue="&quot;A raw value from the web request&quot;" alwaysStopAt="false" />
+    <variable name="PARAMETER_NAME" expression="concat(&quot;$&quot;, VALUE_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="USE_DEFAULT_EXPRESSION" expression="concat(&quot;!is_&quot;, TYPE_NAME,&quot;(&quot;, PARAMETER_NAME,&quot;))" defaultValue="" alwaysStopAt="true" />
+    <variable name="ADDITIONAL_PARSING" expression="concat(&quot;$this-&gt;&quot;, VALUE_NAME,&quot; = (&quot;, TYPE_NAME, &quot;)&quot;,PARAMETER_NAME,&quot;;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="GETTER_DESCRIPTION" expression="concat(&quot;The get method for the parse &quot;, PROPERTY_NAME,&quot; or its default value of '&quot;, INITIAL_VALUE,&quot;'.&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="NOT_BLANK" expression="" defaultValue="&quot;\n\t * @Assert\\NotEmpty&quot;" alwaysStopAt="true" />
+    <variable name="NOT_BLANK_PARAMETERS" expression="concat(&quot;(message=\&quot;&quot;,FIELD_NAME,&quot;.NotBlank\&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="NOT_NULL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT_ASSERT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GETTER_RETURN_DESCRIPTION" expression="concat(&quot;The parsed '&quot;,TYPE_NAME,&quot;' value or '&quot;, INITIAL_VALUE, &quot;'.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="AssertRequired" value="@Assert\NotBlank(message=&quot;$NOT_BLANK_MESSAGE_PATH$&quot;)&#10;&#10;@Assert\NotEmpty(message=&quot;$NOT_BLANK_MESSAGE_PATH$&quot;)&#10;&#10;@Assert\NotNull(message=&quot;$NOT_BLANK_MESSAGE_PATH$&quot;)$END$" description="@Assert\NotBlank" toReformat="true" toShortenFQNames="true">
+    <variable name="NOT_BLANK_MESSAGE_PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+</templateSet>
