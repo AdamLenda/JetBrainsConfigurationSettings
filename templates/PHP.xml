@@ -31,4 +31,22 @@
       <option name="PHP Comment" value="true" />
     </context>
   </template>
+  <template name="nprop" value="//region $PROPERTY_NAME$ Property&#10;/**&#10; * @internal This value is managed by set$PROPERTY_NAME$ and get$PROPERTY_NAME$.&#10; * Direct access is discouraged.&#10; * @var $TYPE_NAME$$DEFAULT_VALUE$ $FIELD_DESCRIPTION$&#10; */&#10;private $$$VALUE_NAME$ = $INITIAL_VALUE$;&#10;&#10;/**&#10; * $SETTER_DESCRIPTION$&#10; * @param $PROPERTY_TYPE$ $PARAMETER_NAME$ $SETTER_PARAMETER_DESCRIPTION$&#10; * @return $this&#10; */&#10;protected function set$PROPERTY_NAME$($PARAMETER_TYPE_HINT$$PARAMETER_NAME$)&#10;{&#10;    $this-&gt;$VALUE_NAME$ = $PARAMETER_NAME$; &#10;    return $this;&#10;}&#10;&#10;/**&#10; * $GETTER_DESCRIPTION$&#10; * @return $PROPERTY_TYPE$ $GETTER_RETURN_DESCRIPTION$&#10; */&#10;public function get$PROPERTY_NAME$()&#10;{&#10;    return $this-&gt;$VALUE_NAME$;&#10;}&#10;//endregion $PROPERTY_NAME$ Property&#10;$END$" description="A class property" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_NAME" expression="decapitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="INITIAL_VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
+    <variable name="TYPE_NAME" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="concat(&quot;|&quot;, INITIAL_VALUE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_DESCRIPTION" expression="concat(&quot;The value managed by the &quot;, PROPERTY_NAME, &quot; accessor methods.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="SETTER_DESCRIPTION" expression="concat(&quot;Fluent accessor method to get &quot;, PROPERTY_NAME,&quot; value.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="SETTER_PARAMETER_DESCRIPTION" expression="concat(&quot;The value to be managed by the &quot;, PROPERTY_NAME, &quot; property.&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETER_NAME" expression="concat(&quot;$&quot;, VALUE_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="PROPERTY_TYPE" expression="concat(TYPE_NAME, DEFAULT_VALUE)" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMETER_TYPE_HINT" expression="concat(TYPE_NAME,&quot; &quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="GETTER_DESCRIPTION" expression="concat(&quot;Accessor method to set &quot;, PROPERTY_NAME,&quot; value.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="GETTER_RETURN_DESCRIPTION" expression="concat(&quot;The current value of the &quot;, PROPERTY_NAME,&quot; property.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
