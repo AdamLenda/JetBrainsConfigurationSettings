@@ -44,7 +44,7 @@
     <variable name="GETTER_RETURN_DESCRIPTION" expression="enum(concat(VALID_VALUES, NO_VALUE), concat(&quot;The current value of &quot;, PROPERTY_NAME,NO_VALUE))" defaultValue="" alwaysStopAt="true" />
     <variable name="SETTER_DESCRIPTION" expression="concat(&quot;Fluent accessor method to set the &quot;, PROPERTY_NAME,&quot; value.&quot;)" defaultValue="" alwaysStopAt="false" />
     <variable name="SETTER_PARAMETER_DESCRIPTION" expression="enum(concat(VALID_VALUES, NO_VALUE), concat(&quot;A value to be converted to &quot;, TYPE_NAME,&quot; type&quot;, NO_VALUE))" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETER_TYPE_HINT" expression="classNameComplete()" defaultValue="TYPE_NAME" alwaysStopAt="true" />
+    <variable name="PARAMETER_TYPE_HINT" expression="enum(expectedType(), concat(TYPE_NAME, &quot; &quot;))" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETER_NAME" expression="concat(&quot;$&quot;, VALUE_NAME)" defaultValue="" alwaysStopAt="false" />
     <variable name="GUARD_EXPRESSION" expression="concat(&quot;if (empty(&quot;, PARAMETER_NAME, &quot;)){$this-&gt;&quot;, VALUE_NAME, &quot; = &quot;, INITIAL_VALUE,&quot;;return $this;}&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="ASSIGNMENT_EXPRESSION" expression="concat(&quot;$this-&gt;&quot;,VALUE_NAME,&quot; = (&quot;,TYPE_NAME,&quot;)&quot;,PARAMETER_NAME,&quot;;&quot;)" defaultValue="" alwaysStopAt="true" />
