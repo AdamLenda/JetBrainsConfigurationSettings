@@ -74,6 +74,10 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="PhpNewClass">
+    <keyboard-shortcut first-keystroke="alt n" second-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="alt n" second-keystroke="c" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
