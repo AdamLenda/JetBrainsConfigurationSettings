@@ -20,6 +20,9 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
@@ -48,6 +51,7 @@
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
   </action>
   <action id="IntroduceConstant" />
+  <action id="IntroduceVariable" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
