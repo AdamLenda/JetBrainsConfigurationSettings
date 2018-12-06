@@ -48,7 +48,7 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="prop" value="//region $PROPERTY_NAME$ Property&#10;/**&#10; * @internal This value is managed by set$PROPERTY_NAME$ and get$PROPERTY_NAME$.&#10; * Direct access is discouraged.&#10; *&#10; * @var $TYPE_NAME$$DEFAULT_VALUE$ $VALID_VALUES$$NO_VALUE$ &#10; */&#10;private $$$VALUE_NAME$ = $INITIAL_VALUE$;&#10;&#10;/**&#10; * $GETTER_DESCRIPTION$&#10; *&#10; * @return $PROPERTY_TYPE$ $GETTER_RETURN_DESCRIPTION$&#10; */&#10;public function get$PROPERTY_NAME$()&#10;{&#10;    return $this-&gt;$VALUE_NAME$;&#10;}&#10;&#10;/**&#10; * $SETTER_DESCRIPTION$&#10; *&#10; * @param $PROPERTY_TYPE$ $PARAMETER_NAME$ $SETTER_PARAMETER_DESCRIPTION$&#10; * @return $this&#10; */&#10;public function set$PROPERTY_NAME$($PARAMETER_TYPE_HINT$$PARAMETER_NAME$)&#10;{&#10;    $GUARD_EXPRESSION$&#10;    $ASSIGNMENT_EXPRESSION$ &#10;    return $this;&#10;}&#10;//endregion $PROPERTY_NAME$ Property&#10;$END$" description="A class property" toReformat="true" toShortenFQNames="true">
+  <template name="prop" value="//region $PROPERTY_NAME$ Property&#10;/**&#10; * @internal This value is managed by set$PROPERTY_NAME$ and get$PROPERTY_NAME$.&#10; * Direct access is discouraged.&#10; *&#10; * @var $TYPE_NAME$$DEFAULT_VALUE$ $VALID_VALUES$$NO_VALUE$ &#10; */&#10;private $$$VALUE_NAME$ = $INITIAL_VALUE$;&#10;&#10;/**&#10; * $GETTER_DESCRIPTION$&#10; *&#10; * @return $PROPERTY_TYPE$ $GETTER_RETURN_DESCRIPTION$&#10; */&#10;public function get$PROPERTY_NAME$()&#10;{&#10;    return $this-&gt;$VALUE_NAME$;&#10;}&#10;&#10;/**&#10; * $SETTER_DESCRIPTION$&#10; *&#10; * @param $PROPERTY_TYPE$ $PARAMETER_NAME$ $SETTER_PARAMETER_DESCRIPTION$&#10; * @return $this&#10; */&#10;public function set$PROPERTY_NAME$($PARAMETER_TYPE_HINT$$PARAMETER_NAME$)&#10;{&#10;    $ASSIGNMENT_EXPRESSION$ &#10;    return $this;&#10;}&#10;//endregion $PROPERTY_NAME$ Property&#10;$END$" description="A class property" toReformat="true" toShortenFQNames="true">
     <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE_NAME" expression="decapitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="false" />
     <variable name="INITIAL_VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
@@ -63,8 +63,7 @@
     <variable name="SETTER_PARAMETER_DESCRIPTION" expression="enum(concat(VALID_VALUES, NO_VALUE), concat(&quot;A value to be converted to &quot;, TYPE_NAME,&quot; type&quot;, NO_VALUE))" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETER_TYPE_HINT" expression="enum(expectedType(), concat(TYPE_NAME, &quot; &quot;))" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETER_NAME" expression="concat(&quot;$&quot;, VALUE_NAME)" defaultValue="" alwaysStopAt="false" />
-    <variable name="GUARD_EXPRESSION" expression="concat(&quot;if (empty(&quot;, PARAMETER_NAME, &quot;)){$this-&gt;&quot;, VALUE_NAME, &quot; = &quot;, INITIAL_VALUE,&quot;;return $this;}&quot;)" defaultValue="" alwaysStopAt="true" />
-    <variable name="ASSIGNMENT_EXPRESSION" expression="concat(&quot;$this-&gt;&quot;,VALUE_NAME,&quot; = (&quot;,TYPE_NAME,&quot;)&quot;,PARAMETER_NAME,&quot;;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ASSIGNMENT_EXPRESSION" expression="concat(&quot;$this-&gt;&quot;,VALUE_NAME,&quot; = &quot;,PARAMETER_NAME,&quot;;&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
