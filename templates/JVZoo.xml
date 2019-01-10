@@ -68,4 +68,11 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="zparse" value="/**&#10; * @param \GuzzleHttp\Psr7\Response $httpResponse&#10; * @param array $responseValues&#10; *&#10; * @return $this&#10; */&#10;public function parse$PROPERTY_NAME$(\GuzzleHttp\Psr7\Response $httpResponse, array $responseValues)&#10;{&#10;    if (empty($responseValues)) {&#10;        return $this;&#10;    }&#10;&#10;    if (array_key_exists('$FIELD_NAME$', $responseValues)) {&#10;        $this-&gt;set$PROPERTY_NAME$($responseValues['$FIELD_NAME$']);&#10;    }&#10;&#10;    return $this;&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="camelCase(PROPERTY_NAME)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
