@@ -1,6 +1,6 @@
 <application>
   <component name="DefaultFont">
-    <option name="LINE_SPACING" value="1.125" />
+    <option name="LINE_SPACING" value="1.25" />
   </component>
   <component name="EditorSettings">
     <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
