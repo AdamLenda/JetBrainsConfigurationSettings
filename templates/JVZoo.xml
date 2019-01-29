@@ -55,7 +55,7 @@
     <variable name="TYPE_NAME" expression="classNameComplete()" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
     <variable name="PROPERTY_TYPE" expression="concat(TYPE_NAME, DEFAULT_VALUE)" defaultValue="" alwaysStopAt="false" />
     <variable name="DEFAULT_VALUE" expression="concat(&quot;|&quot;, INITIAL_VALUE)" defaultValue="" alwaysStopAt="true" />
-    <variable name="VALID_VALUES" expression="enum(concat(&quot;A scalar &quot;, TYPE_NAME), concat(capitalize(TYPE_NAME), &quot; object&quot;)))" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALID_VALUES" expression="enum(concat(&quot;A &quot;, TYPE_NAME), concat(capitalize(TYPE_NAME), &quot; object&quot;)))" defaultValue="" alwaysStopAt="true" />
     <variable name="NO_VALUE" expression="enum(concat(&quot; or &quot;, INITIAL_VALUE ,&quot; for no value.&quot;), &quot;.&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="GETTER_DESCRIPTION" expression="concat(&quot;Accessor method to get the &quot;, PROPERTY_NAME,&quot; value.&quot;)" defaultValue="" alwaysStopAt="false" />
     <variable name="GETTER_RETURN_DESCRIPTION" expression="enum(concat(VALID_VALUES, NO_VALUE), concat(&quot;The current value of &quot;, PROPERTY_NAME,NO_VALUE))" defaultValue="" alwaysStopAt="true" />
