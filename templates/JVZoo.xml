@@ -87,4 +87,18 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="selectDtoBy1Param" value="    /**&#10;     * @param integer $productId&#10;     * @param $DTO_TYPE_NAME$ $$$DTO_VARIABLE_NAME$&#10;     *&#10;     * @return string GetResponseCode constant&#10;     * @throws \Doctrine\DBAL\DBALException&#10;     * @throws \JVZoo\DataTransportObject\Generated\DatabaseTableDefinitionException&#10;     */&#10;    public function select$BUSINESS_OBJECT_NAME$DtoBy$FUNCTION_NAME_QUALIFIER$($$$FILTER_PARAMETER_1$, $DTO_TYPE_NAME$ $$$DTO_VARIABLE_NAME$)&#10;    {&#10;        $sql = &quot;&#10;SELECT&#10;    &quot;.$DTO_TABLE_TYPE$::getSelectForAllColumns('$TABLE_ALIAS$', '$COLUMN_PREFIX$').&quot;&#10;FROM&#10;    &quot;.$DTO_TABLE_TYPE$::getTableName().&quot; $TABLE_ALIAS$&#10;WHERE&#10;    $TABLE_ALIAS$.$FILTER_COLUMN_1$ = :$FILTER_PARAMETER_1$&#10;&quot;;&#10;        $query = $this-&gt;database-&gt;prepare($sql);&#10;        $query-&gt;bindValue('$FILTER_PARAMETER_1$', $$$FILTER_PARAMETER_1$, Type::INTEGER);&#10;&#10;        if (!$query-&gt;execute()) {&#10;            return GetResponseCode::ERROR;&#10;        }&#10;&#10;        if ($query-&gt;rowCount() &lt; 1) {&#10;            return GetResponseCode::NOT_FOUND;&#10;        }&#10;&#10;        $row = $query-&gt;fetch();&#10;        $$$DTO_VARIABLE_NAME$-&gt;mapFromObject($row, '$COLUMN_PREFIX$');&#10;&#10;        return GetResponseCode::FOUND;&#10;    }" description="Builds a JVZoo selectXyzDto method that takes one query filter" toReformat="true" toShortenFQNames="true">
+    <variable name="BUSINESS_OBJECT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION_NAME_QUALIFIER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILTER_PARAMETER_1" expression="decapitalize(FUNCTION_NAME_QUALIFIER)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DTO_TYPE_NAME" expression="concat(BUSINESS_OBJECT_NAME, &quot;Dto&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="DTO_TABLE_TYPE" expression="concat(BUSINESS_OBJECT_NAME, &quot;Table&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DTO_VARIABLE_NAME" expression="decapitalize(DTO_TYPE_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="TABLE_ALIAS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLUMN_PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILTER_COLUMN_1" expression="snakeCase(FILTER_PARAMETER_1)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
