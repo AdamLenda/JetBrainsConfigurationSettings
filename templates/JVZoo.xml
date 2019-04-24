@@ -81,8 +81,8 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="logex2" value="$this-&gt;logger-&gt;error(&#10;    &quot;$METHOD$ encountered an exception. Exception Message: &quot;.$exception-&gt;getMessage(),&#10;    [LogContextField::EXCEPTION =&gt; ExceptionTools::formatExceptionForLog($exception)]&#10;);" description="exception logging code template" toReformat="false" toShortenFQNames="true">
-    <variable name="METHOD" expression="" defaultValue="&quot;\\\&quot;$method\\\&quot;&quot;" alwaysStopAt="true" />
+  <template name="logex2" value="$this-&gt;logger-&gt;error(&#10;    &quot;\&quot;{$METHOD$}\&quot; encountered an exception. Exception Message: &quot;.$exception-&gt;getMessage(),&#10;    [LogContextField::EXCEPTION =&gt; ExceptionTools::formatExceptionForLog($exception)]&#10;);" description="exception logging code template" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="$method" alwaysStopAt="true" />
     <context>
       <option name="PHP Statement" value="true" />
     </context>
