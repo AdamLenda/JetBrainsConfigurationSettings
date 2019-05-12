@@ -1,0 +1,17 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta o" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
+  </action>
+</keymap>

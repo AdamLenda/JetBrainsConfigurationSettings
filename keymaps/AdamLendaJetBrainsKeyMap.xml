@@ -18,10 +18,19 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="equals" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="r" />
   </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
