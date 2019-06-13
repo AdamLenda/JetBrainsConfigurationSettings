@@ -50,6 +50,9 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt b" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
   </action>
