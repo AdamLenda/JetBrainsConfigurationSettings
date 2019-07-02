@@ -85,6 +85,12 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="d" />
   </action>
