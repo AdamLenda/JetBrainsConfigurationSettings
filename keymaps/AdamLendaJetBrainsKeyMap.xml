@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+<keymap version="1" name="AdamLendaJetBrainsKeyMap" parent="Mac OS X">
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="ChangeSplitOrientation">
@@ -9,17 +9,36 @@
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="ContextHelp" />
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="equals" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="r" />
+  </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="EditorUnSelectWord" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
@@ -30,6 +49,9 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt b" />
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
@@ -44,6 +66,8 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
   </action>
+  <action id="IntroduceConstant" />
+  <action id="IntroduceVariable" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
@@ -70,6 +94,10 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="PhpNewClass">
+    <keyboard-shortcut first-keystroke="alt n" second-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="alt n" second-keystroke="c" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -77,6 +105,9 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="ShowContent" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="b" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
   </action>

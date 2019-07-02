@@ -65,13 +65,14 @@
   </component>
   <component name="XDebuggerSettings">
     <data-views>
+      <option name="valueLookupDelay" value="150" />
       <show-values-inline>false</show-values-inline>
     </data-views>
     <general />
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="ObjectiveC">
         <configuration>
-          <custom-object-presentation />
+          <option name="VALUES_FILTER_ENABLED" value="false" />
         </configuration>
       </debugger>
     </debuggers>
