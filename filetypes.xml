@@ -4,9 +4,12 @@
       <mapping pattern="ContentMenu" type="Flow" />
       <mapping pattern="*.js.php" type="PHP" />
       <mapping pattern="FilterFunctionTraceTrait" type="PHP" />
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod.local" type="PLAIN_TEXT" />
       <mapping pattern="SanitizedParameterBag" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="csh" type="PLAIN_TEXT" />
