@@ -21,6 +21,7 @@
       <mapping ext="cache" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="vault" type="YAML" />
     </extensionMap>
   </component>
