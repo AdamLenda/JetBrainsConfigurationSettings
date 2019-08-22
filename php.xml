@@ -5,12 +5,4 @@
   <component name="PhpCodeSniffer">
     <phpcs_settings_migrated />
   </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter id="82811752-0b7e-4d60-a9b6-8c171c7748da" name="PHP 7.3" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
-  <component name="PhpSmartKeysConfiguration">
-    <option name="smartFunctionParametersCompletion" value="true" />
-  </component>
 </application>
