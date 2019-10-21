@@ -72,6 +72,13 @@
   </action>
   <action id="IntroduceConstant" />
   <action id="IntroduceVariable" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
+  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
@@ -132,6 +139,9 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="SynchronizeCurrentFile">
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.UpdateProject" />
