@@ -2,7 +2,4 @@
   <component name="DependencyUISettings">
     <option name="UI_FILTER_LEGALS" value="true" />
   </component>
-  <component name="UISettings">
-    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
-  </component>
 </application>
