@@ -1,10 +1,4 @@
 <application>
-  <component name="MessDetector">
-    <phpmd_settings_migrated />
-  </component>
-  <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="eac10d49-329a-4d20-ba2e-198e8f9f4946" name="PHP 7.1" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
@@ -80,5 +74,9 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
+  </component>
+  <component name="PhpSmartKeysConfiguration">
+    <option name="selectVariableNameWithoutDollar" value="true" />
+    <option name="smartFunctionParametersCompletion" value="true" />
   </component>
 </application>
