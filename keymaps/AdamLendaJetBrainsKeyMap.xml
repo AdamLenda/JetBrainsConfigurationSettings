@@ -36,6 +36,9 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
@@ -63,6 +66,7 @@
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt b" />
   </action>
+  <action id="GotoAction" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
   </action>
