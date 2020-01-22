@@ -19,9 +19,6 @@
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
-  <action id="CopyReferencePopup">
-    <keyboard-shortcut first-keystroke="meta alt c" />
-  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
