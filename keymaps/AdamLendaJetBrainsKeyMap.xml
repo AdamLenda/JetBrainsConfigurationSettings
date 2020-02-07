@@ -20,7 +20,7 @@
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
   <action id="CopyReferencePopup">
-    <keyboard-shortcut first-keystroke="alt z" second-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="CopySettingsPath">
     <keyboard-shortcut first-keystroke="alt z" second-keystroke="alt p" />
