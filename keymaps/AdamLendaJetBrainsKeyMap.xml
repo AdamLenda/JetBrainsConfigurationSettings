@@ -56,6 +56,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorUnSelectWord" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="f" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="m" />
@@ -70,6 +73,7 @@
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt b" />
   </action>
   <action id="GotoAction" />
+  <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
   </action>
@@ -119,8 +123,7 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="PhpNewClass">
-    <keyboard-shortcut first-keystroke="alt n" second-keystroke="alt c" />
-    <keyboard-shortcut first-keystroke="alt n" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="c" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta w" />
