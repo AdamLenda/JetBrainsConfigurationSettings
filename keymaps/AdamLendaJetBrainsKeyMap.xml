@@ -125,11 +125,17 @@
   <action id="PhpNewClass">
     <keyboard-shortcut first-keystroke="meta n" second-keystroke="c" />
   </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="p" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="Runner.CloseAllUnpinnedViews">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="w" />
   </action>
   <action id="ShowContent" />
   <action id="ShowNavBar">
