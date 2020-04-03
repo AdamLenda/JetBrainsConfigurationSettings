@@ -13,11 +13,11 @@
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="ContextHelp" />
-  <action id="CopyContentRootPath">
-    <keyboard-shortcut first-keystroke="alt c" />
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
   <action id="CopyReference">
-    <keyboard-shortcut first-keystroke="meta alt c" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="CopyReferencePopup">
     <keyboard-shortcut first-keystroke="ctrl c" />
