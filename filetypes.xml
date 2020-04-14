@@ -4,7 +4,6 @@
       <mapping pattern="ContentMenu" type="Flow" />
       <mapping pattern="*.js.php" type="PHP" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="PreApprovalPaypalCommercePlatformBillingAgreement" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="SanitizedParameterBag" type="PLAIN_TEXT" />
@@ -17,9 +16,9 @@
       <mapping ext="9" type="PLAIN_TEXT" />
       <mapping ext="scad" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <mapping ext="vault" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
