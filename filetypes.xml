@@ -3,11 +3,11 @@
     <extensionMap>
       <mapping pattern="ContentMenu" type="Flow" />
       <mapping pattern="*.js.php" type="PHP" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="PreApprovalPaypalCommercePlatformBillingAgreement" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="SanitizedParameterBag" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="csh" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="cache" type="PLAIN_TEXT" />
@@ -19,7 +19,6 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern="*.yaml;*.yml" type="SnakeYAML" />
       <mapping ext="vault" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
@@ -28,6 +27,7 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="pl" approved="true" type="textmate" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping pattern="*.yaml;*.yml" type="SnakeYAML" />
     </extensionMap>
   </component>
 </application>
