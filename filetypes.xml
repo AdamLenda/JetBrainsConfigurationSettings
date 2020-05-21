@@ -8,6 +8,7 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="SanitizedParameterBag" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="composer_v1_10_5" type="PLAIN_TEXT" />
       <mapping ext="csh" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="cache" type="PLAIN_TEXT" />
