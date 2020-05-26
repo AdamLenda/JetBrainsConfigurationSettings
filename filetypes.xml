@@ -16,6 +16,7 @@
       <mapping ext="cache" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="9" type="PLAIN_TEXT" />
       <mapping ext="scad" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
