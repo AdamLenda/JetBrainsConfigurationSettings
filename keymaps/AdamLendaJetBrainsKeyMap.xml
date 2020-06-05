@@ -63,9 +63,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorUnSelectWord" />
-  <action id="FileChooser.NewFile">
-    <keyboard-shortcut first-keystroke="meta n" second-keystroke="f" />
-  </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
@@ -129,6 +126,11 @@
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="f" />
+  </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="s" />
   </action>
   <action id="PhpNewClass">
     <keyboard-shortcut first-keystroke="meta n" second-keystroke="c" />
