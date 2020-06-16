@@ -175,6 +175,12 @@
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="m" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="a" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.RefreshStatuses">
