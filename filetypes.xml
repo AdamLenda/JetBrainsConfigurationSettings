@@ -7,6 +7,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="PreApprovalPaypalCommercePlatformBillingAgreement" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="inventory" type="PLAIN_TEXT" />
       <mapping pattern="SanitizedParameterBag" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="composer_v1_10_5" type="PLAIN_TEXT" />
