@@ -1,0 +1,11 @@
+<application>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="4" />
+    <option name="SHOW_METHOD_SEPARATORS" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\bNotImplementedException\b" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+  </component>
+</application>

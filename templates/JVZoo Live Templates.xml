@@ -1,0 +1,52 @@
+<templateSet group="JVZoo Live Templates">
+  <template name="jvzlookuptypemodel" value="class $LookUpTypeTableName$ extends MY_Model&#10;{&#10;&#9;const $TYPE_NAME_ONE$ = 1;&#10;&#9;const $TYPE_NAME_TWO$ = 2;&#10;&#9;&#10;&#9;private static $TYPE_LIST = [&#10;&#9;&#9;self::$TYPE_NAME_ONE$ =&gt; '$TYPE_ONE_FRIENDLY_NAME$',&#10;&#9;&#9;self::$TYPE_NAME_TWO$ =&gt; '$TYPE_TWO_FRIENDLY_NAME$'&#10;&#9;];&#10;&#10;&#9;public static function getNameById($id)&#10;&#9;{&#10;    &#9;if (!array_key_exists($id, self::$TYPE_LIST))&#10;&#9;    {&#10;    &#9;    return 'Unknown Type';&#10;&#9;    }&#10;    &#9;return self::$TYPE_LIST[$id];&#10;&#9;}&#10;&#9;&#10;&#9;public static function getSelectOptions($include_blank = false)&#10;&#9;{&#10;    &#9;if ($include_blank)&#10;&#9;    {&#10;    &#9;    $options[0] = '';&#10;&#9;    }&#10;&#9;    else&#10;    &#9;{&#10;        &#9;$options = [];&#10;&#9;    }&#10;    &#9;array_merge($options, self::$TYPE_LIST);&#10;&#10;&#9;    return $options;&#10;&#9;}&#10;&#9;&#10;&#10;    public static function isKnownType($id)&#10;    {&#10;        return array_key_exists($id, self::$TYPE_LIST);&#10;    }&#10;}" description="Creates a Lookup Type Model Class" toReformat="false" toShortenFQNames="true">
+    <variable name="LookUpTypeTableName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_NAME_ONE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_NAME_TWO" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_ONE_FRIENDLY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_TWO_FRIENDLY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prop" value="/**&#10; * @var $TYPE$&#10; */&#10;protected $$$PROPERTY_NAME$;&#10;/**&#10; * @param $TYPE$$$$PROPERTY_NAME$&#10; * @return $$this&#10; */&#10;public function set$ACCESSOR_NAME$($PARAMETER_TYPE$$$$PROPERTY_NAME$)&#10;{&#10;    $this-&gt;$PROPERTY_NAME$ = $$$PROPERTY_NAME$;&#10;    return $this;&#10;}&#10;/**&#10; * @return $TYPE$&#10; */&#10;public function get$ACCESSOR_NAME$()&#10;{&#10;    return $$this-&gt;$PROPERTY_NAME$;&#10;}&#10;&#10;$END$&#10;" description="Create Protected Property w/ Accessors" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACCESSOR_NAME" expression="capitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETER_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="propa" value="/**&#10; * @var $TYPE$&#10; */&#10;protected $$$PROPERTY_NAME$;&#10;/**&#10; * @param $TYPE$&#10; * @return $$this&#10; */&#10;public function add$ACCESSOR_NAME$($PARAMETER_TYPE$$$$PROPERTY_NAME$)&#10;{&#10;    $this-&gt;$PROPERTY_NAME$[] = $$$PROPERTY_NAME$;&#10;    return $this;&#10;}&#10;/**&#10; * @return $TYPE$&#10; */&#10;public function get$ACCESSOR_NAME$()&#10;{&#10;    return $$this-&gt;$PROPERTY_NAME$;&#10;}&#10;&#10;$END$&#10;" description="Create Protected Array Property w/ Accessors" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACCESSOR_NAME" expression="capitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="array" alwaysStopAt="true" />
+    <variable name="PARAMETER_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="prcf" value="pr(__CLASS__.'-&gt;'.__FUNCTION__.'['.__LINE__.']');" description="print class and function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prcf:" value="pr(__CLASS__.'-&gt;'.__FUNCTION__.'['.__LINE__.'] $VARRIABLE_LABEL$: '.print_r($VARRIABLE$, true));" description="prints a varriable w/ class, function and line number" toReformat="false" toShortenFQNames="true">
+    <variable name="VARRIABLE" expression="" defaultValue="var_name" alwaysStopAt="true" />
+    <variable name="VARRIABLE_LABEL" expression="VARRIABLE" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="propd" value="/**&#10; * @var array[$PARAMETER_TYPE$]&#10; */&#10;protected $$$PROPERTY_NAME$;&#10;/**&#10; * @param $KEY_TYPE$ $key &#10; * @param $PARAMETER_TYPE$ $$$ACCESSOR_PARAMETER_NAME$&#10; * @return $this&#10; */&#10;public function set$ACCESSOR_NAME$($KEY_TYPE$$$key, $PARAMETER_TYPE$$$$ACCESSOR_PARAMETER_NAME$)&#10;{&#10;    $this-&gt;$PROPERTY_NAME$[$key] = $$$ACCESSOR_PARAMETER_NAME$;&#10;    return $this;&#10;}&#10;/**&#10; * @param $KEY_TYPE$ $key&#10; * @return $PARAMETER_TYPE$&#10; */&#10;public function get$ACCESSOR_NAME$($KEY_TYPE$$$key)&#10;{&#10;    return $$this-&gt;$PROPERTY_NAME$[$$key];&#10;}&#10;&#10;$END$&#10;" description="Create Protected Dictionary Property w/ Accessors" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACCESSOR_NAME" expression="capitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="KEY_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETER_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACCESSOR_PARAMETER_NAME" expression="camelCase(ACCESSOR_NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,24 @@
+<templateSet group="xsl">
+  <template name="tm" value="&lt;xsl:template match=&quot;$MATCH$&quot;&gt;&#10;    $END$&#10;&lt;/xsl:template&gt;" description="Template-Match." toReformat="false" toShortenFQNames="true">
+    <variable name="MATCH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="tn" value="&lt;xsl:template name=&quot;$NAME$&quot;&gt;&#10;    $END$&#10;&lt;/xsl:template&gt;" description="Template-Name." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
