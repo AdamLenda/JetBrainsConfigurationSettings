@@ -1,4 +1,4 @@
-<keymap version="1" name="PhpStorm Keymap (macOS)" parent="Mac OS X 10.5+">
+<keymap version="1" name="Adam's PhpStorm Keymap (macOS)" parent="Mac OS X 10.5+">
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
   </action>
@@ -11,8 +11,27 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt b" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta o" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="l" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
   </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl h" />
