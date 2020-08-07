@@ -23,7 +23,4 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
 </templateSet>
