@@ -2,24 +2,23 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern="brew_install_mysql.md" type="PLAIN_TEXT" />
       <mapping pattern="ContentMenuToggle.js" type="PLAIN_TEXT" />
       <mapping pattern="update_affiliate_referral_payouts" type="PLAIN_TEXT" />
-      <mapping pattern="PostUpdate" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern="SecurelyStoreCryptographicSigningKey" type="PLAIN_TEXT" />
       <mapping pattern="00467_add_separate_scheduled_billing_tables" type="PLAIN_TEXT" />
-      <mapping pattern="brew_install_mysql.md" type="PLAIN_TEXT" />
+      <mapping pattern="SecurelyStoreCryptographicSigningKey" type="PLAIN_TEXT" />
       <mapping pattern="NewSingleUserClient.feature" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="PostUpdate" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
-      <mapping ext="service" type="PLAIN_TEXT" />
-      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping pattern="00432_add_stripe_first_and_last_name" type="SQL" />
-      <mapping pattern="00467_add_separate_scheduled_billing_tables.sql" type="SQL" />
       <mapping pattern="00415_add_stripe_recurring" type="SQL" />
       <mapping pattern="00377_add_product_affiliate_autoresponder" type="SQL" />
+      <mapping pattern="00467_add_separate_scheduled_billing_tables.sql" type="SQL" />
       <mapping pattern="index" type="Twig" />
     </extensionMap>
   </component>
