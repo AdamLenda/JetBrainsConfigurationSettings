@@ -14,6 +14,10 @@
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="m" />
+  </action>
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt b" />
   </action>
@@ -47,6 +51,9 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
+  </action>
+  <action id="Symfony2Symbols">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="y" />
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="m" />
