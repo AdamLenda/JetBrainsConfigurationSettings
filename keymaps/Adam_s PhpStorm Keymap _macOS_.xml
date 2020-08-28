@@ -2,6 +2,9 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
   </action>
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="CopyReferencePopup">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
