@@ -264,4 +264,20 @@
       <option name="PHP Comment" value="true" />
     </context>
   </template>
+  <template name="propd" value="//region $PROPERTY_NAME$ Property&#10;/**&#10; * @internal This value is managed by add$PROPERTY_NAME$, setAll$PROPERTY_NAME$ and getAll$PROPERTY_NAME$.&#10; * Direct access is discouraged.&#10; *&#10; * @var array|null $VALUE_TYPE$ array &#10; */&#10;private $$$VALUE_NAME$ = $INITIAL_VALUE$;&#10;&#10;/**&#10; * Fluent accessor for adding a $VALUE_TYPE$ to the $PROPERTY_NAME$ dictionary.&#10; *&#10; * @param $KEY_TYPE$ $$key &#10; * @param $VALUE_TYPE$ $$$VALUE_PARAMETER_NAME$&#10; * @return static&#10; */&#10;public function add$PROPERTY_NAME$($$key, $VALUE_TYPE_HINT$ $$$VALUE_PARAMETER_NAME$)&#10;{&#10;    $$this-&gt;$VALUE_NAME$[$$key] = $$$VALUE_PARAMETER_NAME$;&#10;    return $$this;&#10;}&#10;&#10;/**&#10; * Fluent accessor for clearing all values from the $PROPERTY_NAME$ dictionary.&#10; *&#10; * @return static&#10; */&#10;public function clear$PROPERTY_NAME$()&#10;{&#10;    $$this-&gt;$VALUE_NAME$ = null;&#10;    return $$this;&#10;}&#10;&#10;/**&#10; * Accessor method to return all values from the $PROPERTY_NAME$ dictionary.&#10; *&#10; * @return array$DEFAULT_VALUE$&#10; */&#10;public function getAll$PROPERTY_NAME$()&#10;{&#10;    return $$this-&gt;$VALUE_NAME$;&#10;}&#10;&#10;/**&#10; * Accessor method for returning one value from the $PROPERTY_NAME$ dictionary.&#10; *&#10; * @param $KEY_TYPE$ $$key&#10; * @return $VALUE_TYPE$$DEFAULT_VALUE$&#10; */&#10;public function get$PROPERTY_NAME$By$INDEX_NAME$($$key)&#10;{&#10;    if (!array_key_exists($$key, $$this-&gt;$VALUE_NAME$)) {&#10;        return $INITIAL_VALUE$;&#10;    } &#10;    return $$this-&gt;$VALUE_NAME$[$$key];&#10;}&#10;//endregion $PROPERTY_NAME$ Property$END$" description="A dictionary property" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="enum(&quot;&quot;, clipboard())" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VALUE_NAME" expression="decapitalize(PROPERTY_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="VALUE_TYPE" expression="enum(&quot;object&quot;,&quot;string&quot;,&quot;int&quot;, PROPERTY_NAME)" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
+    <variable name="INITIAL_VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="concat(&quot;|&quot;, INITIAL_VALUE)" defaultValue="" alwaysStopAt="false" />
+    <variable name="KEY_TYPE" expression="enum(&quot;string&quot;, &quot;int&quot;)" defaultValue="&quot;int&quot;" alwaysStopAt="true" />
+    <variable name="VALUE_TYPE_HINT" expression="enum(&quot;&quot;, VALUE_TYPE,PROPERTY_NAME,clipboard())" defaultValue="VALUE_TYPE" alwaysStopAt="true" />
+    <variable name="VALUE_PARAMETER_NAME" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="false" />
+    <variable name="INDEX_NAME" expression="enum(&quot;&quot;, &quot;Id&quot;, &quot;Key&quot;, clipboard())" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Interface Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>
