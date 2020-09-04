@@ -2,6 +2,9 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
   </action>
+  <action id="CopyAbsolutePath">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -52,6 +55,7 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl v" />
   </action>
+  <action id="RecentChanges" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
   </action>
