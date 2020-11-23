@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern="console2" type="PHP" />
+      <mapping pattern="jvzoo_v2" type="PHP" />
       <mapping pattern="brew_install_mysql.md" type="PLAIN_TEXT" />
       <mapping pattern="ContentMenuToggle.js" type="PLAIN_TEXT" />
       <mapping pattern="update_affiliate_referral_payouts" type="PLAIN_TEXT" />
