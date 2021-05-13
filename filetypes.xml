@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="sail" type="AUTO_DETECTED" />
       <mapping pattern="Makefile" type="AUTO_DETECTED" />
+      <mapping ext="log" type="AUTO_DETECTED" />
       <mapping pattern="console2" type="PHP" />
       <mapping pattern="jvzoo_v2" type="PHP" />
       <mapping pattern="brew_install_mysql.md" type="PLAIN_TEXT" />
