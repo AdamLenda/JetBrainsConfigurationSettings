@@ -285,7 +285,7 @@
             <match>
               <AND>
                 <CONST>true</CONST>
-                <visibility />
+                <visibility_then_name />
               </AND>
             </match>
             <order>BY_NAME</order>
