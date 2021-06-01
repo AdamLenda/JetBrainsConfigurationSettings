@@ -1,5 +1,5 @@
 <application>
-  <component name="PhpAutoImport" auto_import_file_scope="true" global_class_behavior="PREFER_IMPORT" global_constant_behavior="PREFER_IMPORT" global_function_behavior="PREFER_IMPORT" import_on_paste="ALL" />
+  <component name="PhpAutoImport" auto_import_file_scope="true" global_class_behavior="PREFER_IMPORT" global_constant_behavior="PREFER_FQN" global_function_behavior="PREFER_FQN" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/Programming/LendaConsulting/BBCSystems/JVZoo/vendor/bin/phpcs" />
