@@ -24,11 +24,15 @@
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
+  <action id="FileChooser.NewFolder" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="m" />
   </action>
   <action id="ForceRefresh" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt b" />
   </action>
@@ -56,6 +60,15 @@
   </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl v" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="PhpNewClass">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="meta c" />
+  </action>
+  <action id="PhpNewFile">
+    <keyboard-shortcut first-keystroke="meta n" second-keystroke="meta f" />
   </action>
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="shift meta alt r" />
