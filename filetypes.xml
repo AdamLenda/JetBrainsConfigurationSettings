@@ -30,6 +30,7 @@
       <mapping pattern="00377_add_product_affiliate_autoresponder" type="SQL" />
       <mapping pattern="00467_add_separate_scheduled_billing_tables.sql" type="SQL" />
       <mapping pattern="index" type="Twig" />
+      <mapping pattern="game" type="XML" />
     </extensionMap>
   </component>
 </application>
