@@ -15,15 +15,22 @@
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
   <action id="DatabaseView.ForceRefresh" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EmmetNextEditPoint" />
+  <action id="EmmetPreviousEditPoint" />
   <action id="FileChooser.NewFolder" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
@@ -52,6 +59,14 @@
     <keyboard-shortcut first-keystroke="meta alt o" />
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
   </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="o" />
   </action>
@@ -64,12 +79,17 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="NextEditorTab" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
   <action id="PhpNewClass">
     <keyboard-shortcut first-keystroke="meta n" second-keystroke="meta c" />
   </action>
   <action id="PhpNewFile">
     <keyboard-shortcut first-keystroke="meta n" second-keystroke="meta f" />
   </action>
+  <action id="PreviousEditorTab" />
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="shift meta alt r" />
   </action>
@@ -79,6 +99,9 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="Symfony2Symbols">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="y" />
@@ -90,4 +113,12 @@
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl m" />
   </action>
   <action id="UsageGrouping.FileStructure" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
 </keymap>
