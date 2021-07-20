@@ -10,7 +10,7 @@
     <mask>*.js</mask>
     <mask>*.md</mask>
     <mask>*.php</mask>
-    <mask>*.yml</mask>
     <mask>*.twig</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
