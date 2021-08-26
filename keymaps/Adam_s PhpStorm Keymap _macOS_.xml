@@ -98,7 +98,7 @@
   </action>
   <action id="RecentChanges" />
   <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="e" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
