@@ -97,6 +97,9 @@
     <keyboard-shortcut first-keystroke="shift meta alt r" />
   </action>
   <action id="RecentChanges" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="e" />
   </action>
@@ -106,6 +109,9 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
   </action>
+  <action id="Switcher" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Symfony2Symbols">
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="y" />
   </action>
