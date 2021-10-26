@@ -13,7 +13,6 @@
     <option name="SEARCH_SCOPE" value="Default Changelist" />
     <mask>*.md</mask>
     <mask>*.js</mask>
-    <mask>*.yml</mask>
     <mask>*.twig</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
@@ -26,5 +25,6 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.php</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
