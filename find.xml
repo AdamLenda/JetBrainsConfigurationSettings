@@ -3,13 +3,16 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="localRegularExpressions" value="true" />
+    <option name="regularExpressions" value="true" />
     <option name="showResultsInSeparateView" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
     <mask>*.md</mask>
     <mask>*.js</mask>
     <mask>*.twig</mask>
+    <mask>*.yml</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -21,6 +24,5 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.php</mask>
-    <mask>*.yml</mask>
   </component>
 </application>
