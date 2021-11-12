@@ -7,8 +7,8 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.md</mask>
-    <mask>*.js</mask>
     <mask>*.yml</mask>
     <mask>*.feature</mask>
     <mask>*.css</mask>
@@ -23,5 +23,6 @@
     <mask>*.inc</mask>
     <mask>*.php</mask>
     <mask>*.twig</mask>
+    <mask>*.js</mask>
   </component>
 </application>
