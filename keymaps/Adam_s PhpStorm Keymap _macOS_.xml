@@ -15,6 +15,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
   <action id="DatabaseView.ForceRefresh" />
+  <action id="Debug" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.FocusOppositePaneAndScroll" />
