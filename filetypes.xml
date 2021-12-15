@@ -3,6 +3,7 @@
     <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs" />
     <extensionMap>
       <mapping pattern=".env.test" type="AUTO_DETECTED" />
+      <mapping pattern="text-1" type="AUTO_DETECTED" />
       <mapping pattern="sail" type="AUTO_DETECTED" />
       <mapping pattern="Makefile" type="AUTO_DETECTED" />
       <mapping ext="log" type="AUTO_DETECTED" />
@@ -19,6 +20,7 @@
       <mapping pattern="brew_install_mysql.md" type="PLAIN_TEXT" />
       <mapping pattern="SecurelyStoreCryptographicSigningKey" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
+      <mapping ext="rtf" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
