@@ -1,0 +1,28 @@
+<keymap version="1" name="IntelliJ copy" parent="$default">
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="FileChooser.NewFolder" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="c" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="l" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="s" />
+  </action>
+  <action id="ReSharperNavigateTo" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+</keymap>

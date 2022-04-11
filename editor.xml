@@ -1,4 +1,7 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="INSERT_BRACE_ON_ENTER" value="false" />
+  </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="4" />
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
