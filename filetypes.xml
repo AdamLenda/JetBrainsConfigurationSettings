@@ -21,21 +21,19 @@
       <mapping pattern="SecurelyStoreCryptographicSigningKey" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="rtf" type="PLAIN_TEXT" />
-      <mapping ext="service" type="PLAIN_TEXT" />
-      <mapping ext="sample" type="PLAIN_TEXT" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="sample" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern="00377_add_product_affiliate_autoresponder" type="SQL" />
       <mapping pattern="00467_add_separate_scheduled_billing_tables.sql" type="SQL" />
       <mapping pattern="00432_add_stripe_first_and_last_name" type="SQL" />
       <mapping pattern="00415_add_stripe_recurring" type="SQL" />
+      <mapping pattern="index" type="Twig" />
       <mapping pattern="game" type="XML" />
       <removed_mapping ext="template" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern="console2" type="PHP" />
-      <mapping pattern="index" type="Twig" />
-      <mapping pattern="jvzoo_v2" type="PHP" />
     </extensionMap>
   </component>
 </application>
